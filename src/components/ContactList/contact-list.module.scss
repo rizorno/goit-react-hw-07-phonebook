@@ -48,6 +48,11 @@ ul {
 
       cursor: pointer;
 
+      &:hover,
+      &:focus {
+        background-color: rgb(196, 242, 161);
+      }
+
       &:active {
         transform: translateY(3px);
       }
